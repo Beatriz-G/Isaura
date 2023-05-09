@@ -2,15 +2,31 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    color: #2b2b2b;
+    color: #FFDA33;
     font-size: 16px;
 }
 
-/*****GRID*****/
-
-.full-width {
-    width: 90%;
-    max-width: 1200px;
+full-width {
+    width: 400px;
     margin: 0 auto;
     overflow: auto;
+}
+
+/*****HEADER*****/
+header {
+    height: 800px;
+    width: 750px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #E74C3C;
+    margin-left: 60px;
 }
