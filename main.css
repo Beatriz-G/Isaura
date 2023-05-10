@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    color: #FFDA33;
+    color: #7F8C8D;
     font-size: 16px;
 }
 
@@ -14,19 +14,89 @@ full-width {
 
 /*****HEADER*****/
 header {
-    height: 800px;
-    width: 750px;
+    height: 860px;
+    width: 780px;
     text-align: center;
 }
 
 header h1 {
     text-align: center;
     font-size: 80px;
+    margin-left: 160px;
+    padding-top: 40px;
+    color: #F7DC6F;
 }
 
 header h2 {
     text-align: center;
     font-size: 40px;
     color: #E74C3C;
-    margin-left: 80px;
+    margin-left: 140px;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 10px 10px 80px;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #F7DC6F;
+}
+
+/*****ABOUT*****/
+#about {
+    background-color: #FCF3CF;
+    text-align:center;
+    padding: 40px 70px;
+}
+
+#about h2 {
+    color: #E74C3C; 
+}
+
+/*****WORK*****/
+#work {
+    text-align:center;
+    text-align:center;
+    padding: 40px 70px;
+}
+
+#work h2 {
+    color: #E74C3C;
+}
+
+/*****HOBBIES*****/
+#hobbies {
+    text-align:center;
+    text-align:center;
+    padding: 40px 70px;
+}
+
+/*****CONTACT*****/
+#contact {
+    text-align:center;
+    padding: 50px 40px;
+}
+
+#contact h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding-bottom: 80px;
+    color: #EDAFC9;
+    text-align:center;
+}
+
+footer a {
+    color: #EDAFC9;
 }
