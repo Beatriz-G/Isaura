@@ -14,14 +14,14 @@ full-width {
 
 /*****HEADER*****/
 header {
-    height: 860px;
+    height: 960px;
     width: 780px;
     text-align: center;
 }
 
 header h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     margin-left: 160px;
     padding-top: 40px;
     color: #F7DC6F;
@@ -60,6 +60,7 @@ nav ul li a {
 
 #about h2 {
     color: #E74C3C; 
+    font-size: 50px;
 }
 
 /*****WORK*****/
@@ -71,6 +72,7 @@ nav ul li a {
 
 #work h2 {
     color: #E74C3C;
+    font-size: 50px;
 }
 
 /*****HOBBIES*****/
@@ -78,6 +80,12 @@ nav ul li a {
     text-align:center;
     text-align:center;
     padding: 40px 70px;
+    background-color: #FCF3CF;
+}
+
+#hobbies h2 {
+    color: #E74C3C;
+    font-size: 50px;
 }
 
 /*****CONTACT*****/
@@ -89,8 +97,15 @@ nav ul li a {
 #contact h2 {
     font-size: 40px;
     padding-bottom: 30px;
+    color: #E74C3C;
+}
+#contact a {
+    color: #7F8C8D;
 }
 
+
+
+/*****FOOTER*****/
 footer {
     padding-bottom: 80px;
     color: #EDAFC9;
