@@ -68,7 +68,6 @@ nav ul li a {
 /*****WORK*****/
 #work {
     text-align:center;
-    text-align:center;
     padding: 40px 70px;
 }
 
@@ -79,7 +78,6 @@ nav ul li a {
 
 /*****HOBBIES*****/
 #hobbies {
-    text-align:center;
     text-align:center;
     padding: 40px 70px;
     background-color: #FCF3CF;
@@ -103,9 +101,8 @@ nav ul li a {
 }
 #contact a {
     color: #7F8C8D;
+    text-decoration: none;
 }
-
-
 
 /*****FOOTER*****/
 footer {
@@ -116,6 +113,7 @@ footer {
 
 footer a {
     color: #EDAFC9;
+    text-decoration: none;
 }
 
 /*****TABLET MEDIA SCREEN****/
@@ -149,6 +147,38 @@ footer a {
         padding: 50px 30px 10px 30px;
     }
 
+    /*ABOUT*/
+    #about {
+        background-color: #FCF3CF;
+        text-align: center;
+        width: 1200px;
+
+    }
+    
+    #about h2 {
+        color: #E74C3C; 
+        font-size: 100px;
+    }
+
+    #about p {
+        width: 1200px;
+        font-size: 30px;
+    }
+
+
+    /*WORK*/
+
+
+
+
+    /*HOBBIES*/
+
+
+
+    /*CONTACT*/
+
+
+
 
 }
 
@@ -156,10 +186,12 @@ footer a {
 
 @media screen and (min-width: 1000px) {
 
+   
+
     /*header*/
     header {
-        height: 660px;
-        width: 1400px;
+        height: 760px;
+        width: 1200px;
         text-align: center;
     }
     
