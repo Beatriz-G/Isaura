@@ -6,24 +6,24 @@ body {
     font-size: 16px;
 }
 
-full-width {
-    width: 400px;
+.full-width {
+    width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
 
 /*****HEADER*****/
 header {
-    height: 960px;
-    width: 780px;
+    height: 800px;
+    
     text-align: center;
 }
 
 header h1 {
     text-align: center;
     font-size: 90px;
-    margin-left: 160px;
-    padding-top: 40px;
+    /*margin-left: 160px;
+    padding-top: 40px;*/
     color: #F7DC6F;
 }
 
@@ -31,12 +31,13 @@ header h2 {
     text-align: center;
     font-size: 40px;
     color: #E74C3C;
-    margin-left: 140px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 nav {
-    width: 100%;
-    padding: 20px 10px 10px 80px;
+    width: 90%;
+    padding: 20px 10px 10px 10px;
 }
 
 nav ul {
@@ -119,94 +120,18 @@ footer a {
 /*****TABLET MEDIA SCREEN****/
 
 @media screen and (min-width: 760px) {
-
-    /*header*/
-    header {
-        height: 800px;
-        width: 900px;
-        text-align: center;
-    }
-
-    header h1 {
-        text-align: center;
-        font-size: 90px;
-        margin-left: 100px;
-        padding-top: 10px;
-        color: #F7DC6F;
-    }
     
-    header h2 {
-        text-align: center;
-        font-size: 40px;
-        color: #E74C3C;
-        margin-left: 80px;
-    }
-
-    nav {
-        width: 100%;
-        padding: 50px 30px 10px 30px;
-    }
-
-    /*ABOUT*/
-    #about {
-        background-color: #FCF3CF;
-        text-align: center;
-        width: 1200px;
-
-    }
     
-    #about h2 {
-        color: #E74C3C; 
-        font-size: 100px;
-    }
-
-    #about p {
-        width: 1200px;
-        font-size: 30px;
-    }
-
-
-    /*WORK*/
-
-
-
-
-    /*HOBBIES*/
-
-
-
-    /*CONTACT*/
-
-
-
-
 }
 
 /*****DESKTOP MEDIA SCREEN*****/
 
 @media screen and (min-width: 1000px) {
 
-   
+    #hobbies {
+        
 
-    /*header*/
-    header {
-        height: 760px;
-        width: 1200px;
-        text-align: center;
     }
-    
-    header h1 {
-        text-align: center;
-        font-size: 90px;
-        margin-left: 160px;
-        padding-top: 40px;
-        color: #F7DC6F;
-    }
-    
-  
-
-
-
     
 
 
