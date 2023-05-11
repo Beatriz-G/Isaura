@@ -44,11 +44,13 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    list-style-type: none;
 }
 
 nav ul li a {
     text-transform: uppercase;
     color: #F7DC6F;
+    text-decoration: none;
 }
 
 /*****ABOUT*****/
@@ -114,4 +116,67 @@ footer {
 
 footer a {
     color: #EDAFC9;
+}
+
+/*****TABLET MEDIA SCREEN****/
+
+@media screen and (min-width: 760px) {
+
+    /*header*/
+    header {
+        height: 800px;
+        width: 900px;
+        text-align: center;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 90px;
+        margin-left: 100px;
+        padding-top: 10px;
+        color: #F7DC6F;
+    }
+    
+    header h2 {
+        text-align: center;
+        font-size: 40px;
+        color: #E74C3C;
+        margin-left: 80px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 50px 30px 10px 30px;
+    }
+
+
+}
+
+/*****DESKTOP MEDIA SCREEN*****/
+
+@media screen and (min-width: 1000px) {
+
+    /*header*/
+    header {
+        height: 660px;
+        width: 1400px;
+        text-align: center;
+    }
+    
+    header h1 {
+        text-align: center;
+        font-size: 90px;
+        margin-left: 160px;
+        padding-top: 40px;
+        color: #F7DC6F;
+    }
+    
+  
+
+
+
+    
+
+
+
 }
