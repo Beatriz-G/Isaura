@@ -102,13 +102,19 @@ nav ul li a {
 }
 
 #contact h2 {
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 30px;
     color: #E74C3C;
 }
 #contact a {
     color: #7F8C8D;
     text-decoration: none;
+}
+
+#contact span {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: #0072b1;
 }
 
 /*****FOOTER*****/
