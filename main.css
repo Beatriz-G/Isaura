@@ -15,15 +15,16 @@ body {
 /*****HEADER*****/
 header {
     height: 800px;
-    
+    height: 100%;
     text-align: center;
 }
 
 header h1 {
     text-align: center;
     font-size: 90px;
-    /*margin-left: 160px;
-    padding-top: 40px;*/
+    padding-top: 40px;
+    margin-left: 30px;
+
     color: #F7DC6F;
 }
 
@@ -37,7 +38,7 @@ header h2 {
 
 nav {
     width: 90%;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 10px 30px;
 }
 
 nav ul {
@@ -127,12 +128,6 @@ footer a {
 /*****DESKTOP MEDIA SCREEN*****/
 
 @media screen and (min-width: 1000px) {
-
-    #hobbies {
-        
-
-    }
-    
 
 
 
