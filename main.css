@@ -102,19 +102,18 @@ nav ul li a {
 }
 
 #contact h2 {
-    font-size: 50px;
+    font-size: 60px;
     padding-bottom: 30px;
     color: #E74C3C;
 }
 #contact a {
-    color: #7F8C8D;
+    color: #0072b1;
     text-decoration: none;
 }
 
-.linkedin {
-    font-size: 30px;
+#contact span {
+    font-size: 20px;
     font-family: 'Anton', sans-serif;
-    color: #0072b1;
 }
 
 /*****FOOTER*****/
