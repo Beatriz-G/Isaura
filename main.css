@@ -116,6 +116,11 @@ nav ul li a {
     font-family: 'Anton', sans-serif;
 }
 
+#contact .isaura {
+    font-family: 'Mogra', cursive;
+    font-size: 15px;
+}
+
 /*****FOOTER*****/
 footer {
     padding-bottom: 80px;
