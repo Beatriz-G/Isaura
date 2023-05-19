@@ -23,8 +23,8 @@ header h1 {
     text-align: center;
     font-size: 90px;
     padding-top: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: #F7DC6F;
 }
 
@@ -53,18 +53,6 @@ nav ul li a {
     text-transform: uppercase;
     color: #F7DC6F;
     text-decoration: none;
-}
-
-/*****ABOUT*****/
-#about {
-    background-color: #FCF3CF;
-    text-align:center;
-    padding: 40px 70px;
-}
-
-#about h2 {
-    color: #E74C3C; 
-    font-size: 50px;
 }
 
 /*****WORK*****/
@@ -137,6 +125,51 @@ footer span {
     font-family: 'Pacifico', cursive;
     font-size: 50px;
 }
+
+
+/*****ABOUT PAGE******/
+.about body {
+    color: #7F8C8D;
+    font-size: 30px;
+}
+
+.about .full-width {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/**HEADER**/
+.about h1 {
+    text-align: center;
+    font-size: 90px;
+    padding-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #F7DC6F;
+}
+
+#early-life {
+    background-color: #FCF3CF;
+    text-align:center;
+    padding: 50px 70px;
+    font-size:
+}
+
+#early-life h2 {
+    color: #E74C3C; 
+    font-size: 50px;
+}
+
+
+
+
+
+
+/*****WORK PAGE*****/
+
+
+
 
 /*****TABLET MEDIA SCREEN****/
 
