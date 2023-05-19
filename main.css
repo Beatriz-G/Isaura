@@ -22,7 +22,6 @@ header {
 header h1 {
     text-align: center;
     font-size: 90px;
-    padding-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
     color: #F7DC6F;
@@ -42,7 +41,7 @@ nav {
 }
 
 nav ul {
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -53,6 +52,20 @@ nav ul li a {
     text-transform: uppercase;
     color: #F7DC6F;
     text-decoration: none;
+}
+
+#main-html {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+#main-html h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 70px;
 }
 
 /*****WORK*****/
@@ -118,7 +131,7 @@ footer {
 
 footer a {
     color: #EDAFC9;
-    text-decoration: none;
+    
 }
 
 footer span {
@@ -158,10 +171,44 @@ footer span {
 
 #early-life h2 {
     color: #E74C3C; 
-    font-size: 50px;
+    font-size: 50px
 }
 
+#stanford h2 {
+    color: #E74C3C; 
+    font-size: 50px;
+    text-align: center;
+}
 
+#stanford h3 {
+    color: #E74C3C; 
+    font-size: 30px;
+    text-align: center;
+}
+
+#stanford {
+    text-align:center;
+    padding: 50px 70px;
+    font-size:
+}
+
+#stanford a {
+    text-decoration: none;
+    color:#E74C3C;
+}
+
+#life-pinterest h2 {
+    color: #E74C3C; 
+    font-size: 50px;
+    text-align: center;
+}
+
+#life-pinterest {
+    background-color: #FCF3CF;
+    text-align:center;
+    padding: 50px 70px;
+    font-size:
+}
 
 
 
