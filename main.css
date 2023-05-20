@@ -116,7 +116,6 @@ footer span {
     background-color: #FCF3CF;
     text-align:center;
     padding: 50px 70px;
-    font-size:
 }
 
 #early-life h2 {
@@ -139,7 +138,6 @@ footer span {
 #stanford {
     text-align:center;
     padding: 50px 70px;
-    font-size:
 }
 
 #stanford a {
@@ -157,7 +155,6 @@ footer span {
     background-color: #FCF3CF;
     text-align:center;
     padding: 50px 70px;
-    font-size:
 }
 
 /*****WORK PAGE*****/
@@ -244,16 +241,38 @@ header .font {
 }
 
 /*****HOBBIES*****/
-#hobbies {
+#puzzles {
     text-align:center;
     padding: 40px 70px;
     background-color: #FCF3CF;
+  
 }
 
-#hobbies h2 {
+#puzzles h2 {
     color: #E74C3C;
     font-size: 50px;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
 }
+
+#cookies {
+    text-align:center;
+    padding: 40px 70px;
+}
+
+#cookies h2 {
+    color: #E74C3C;
+    font-size: 50px;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
+}
+
+#cookies .galletas {
+    font-family: 'Lobster', cursive;
+}
+
 
 
 
