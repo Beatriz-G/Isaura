@@ -54,6 +54,8 @@ nav ul li a {
     text-decoration: none;
 }
 
+/*****MAIN SECTION*****/
+
 #main-html {
     text-align: center;
 }
@@ -66,19 +68,6 @@ img {
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 70px;
-}
-
-
-/*****HOBBIES*****/
-#hobbies {
-    text-align:center;
-    padding: 40px 70px;
-    background-color: #FCF3CF;
-}
-
-#hobbies h2 {
-    color: #E74C3C;
-    font-size: 50px;
 }
 
 
@@ -250,10 +239,21 @@ header .font {
     float: left;
 }
 
+#contact .adorable {
+    font-family: 'Lobster', cursive;
+}
 
+/*****HOBBIES*****/
+#hobbies {
+    text-align:center;
+    padding: 40px 70px;
+    background-color: #FCF3CF;
+}
 
-
-
+#hobbies h2 {
+    color: #E74C3C;
+    font-size: 50px;
+}
 
 
 
