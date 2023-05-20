@@ -81,35 +81,11 @@ img {
     font-size: 50px;
 }
 
-/*****CONTACT*****/
-#contact {
-    text-align:center;
-    padding: 50px 40px;
-}
 
-#contact h2 {
-    font-size: 60px;
-    padding-bottom: 30px;
-    color: #E74C3C;
-}
-#contact a {
-    color: #0072b1;
-    text-decoration: none;
-}
-
-#contact span {
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
-}
-
-#contact .isaura {
-    font-family: 'Mogra', cursive;
-    font-size: 15px;
-}
 
 /*****FOOTER*****/
 footer {
-    padding-bottom: 80px;
+    padding-bottom:30px;
     color: #EDAFC9;
     text-align:center;
 }
@@ -137,7 +113,7 @@ footer span {
     overflow: auto;
 }
 
-/**HEADER**/
+/**ABOUT HEADER**/
 .about h1 {
     text-align: center;
     font-size: 90px;
@@ -156,12 +132,12 @@ footer span {
 
 #early-life h2 {
     color: #E74C3C; 
-    font-size: 50px
+    font-size: 70px
 }
 
 #stanford h2 {
     color: #E74C3C; 
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -184,7 +160,7 @@ footer span {
 
 #life-pinterest h2 {
     color: #E74C3C; 
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -197,18 +173,21 @@ footer span {
 
 /*****WORK PAGE*****/
 #hr {
+    background-color: #FCF3CF;
     text-align:center;
     padding: 40px 70px;
 }
 
-#hr h2 {
-    color: #E74C3C;
-    font-size: 50px;
+header .font {
+    font-family: 'Lobster', cursive;
 }
 
-#pos span {
-    font-size: 30px;
-    font-family: 'Lobster', cursive;
+#hr h2 {
+    color: #E74C3C;
+    font-size: 70px;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
 }
 
 #pos {
@@ -216,11 +195,60 @@ footer span {
     padding: 40px 70px;
 }
 
+#pos span {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+#pos h2 {
+    color: #E74C3C;
+    font-size: 70px;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
+}
+
+#pos .pinterest-font {
+    font-family: 'Lobster', cursive;
+}
+
 #contact {
+    background-color: #FCF3CF;
     text-align:center;
     padding: 40px 70px;
 }
 
+#contact img {
+    text-align: center;
+}
+
+#contact span {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+#contact .isaura {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+#contact a {
+    color: #0072b1;
+}
+
+#contact h2{ 
+    color: #E74C3C;
+    font-size: 70px;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
+}
+
+#contact .half-width {
+    width: 600px;
+    float: left;
+}
 
 
 
