@@ -70,8 +70,6 @@ img {
     font-size: 70px;
 }
 
-
-
 /*****FOOTER*****/
 footer {
     padding-bottom:30px;
@@ -120,13 +118,19 @@ footer span {
 
 #early-life h2 {
     color: #E74C3C; 
-    font-size: 70px
+    font-size: 70px;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
 }
 
 #stanford h2 {
     color: #E74C3C; 
     font-size: 70px;
     text-align: center;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
 }
 
 #stanford h3 {
@@ -149,6 +153,9 @@ footer span {
     color: #E74C3C; 
     font-size: 70px;
     text-align: center;
+    border-bottom: black solid;
+    border-width: 2px 0;
+    padding-bottom: 20px;
 }
 
 #life-pinterest {
@@ -156,6 +163,8 @@ footer span {
     text-align:center;
     padding: 50px 70px;
 }
+
+
 
 /*****WORK PAGE*****/
 #hr {
