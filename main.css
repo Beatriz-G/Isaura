@@ -246,6 +246,10 @@ header .font {
     font-family: 'Lobster', cursive;
 }
 
+#contact img {
+    border: 20px double #E74C3C;
+}
+
 /*****HOBBIES*****/
 .puzzle-header {
     background: url('../img/puzzle-white.png');
