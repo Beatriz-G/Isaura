@@ -46,6 +46,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+    padding: 20px 30px;
 }
 
 nav ul li a {
@@ -248,12 +249,29 @@ header .font {
     border: 10px double #7F8C8D;
 }
 
-/*****HOBBIES*****/
+/*****HOBBIES**********************************************************/
 .puzzle-header {
-    background: url('../img/puzzle-white.png');
-
+    background: url('img/puzzle-white.png');
+    opacity: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.puzzle-header nav ul {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #F7DC6F;
+    opacity: 60%;
+    padding: 20px 30px;
+}
+
+.puzzle-header nav ul li a  {
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
 }
 
 #puzzles {
@@ -273,6 +291,7 @@ header .font {
 #cookies {
     text-align:center;
     padding: 40px 70px;
+    background: url('../img/Cookies-in-box.png');
 }
 
 #cookies h2 {
@@ -286,6 +305,8 @@ header .font {
 #cookies .galletas {
     font-family: 'Lobster', cursive;
 }
+
+
 
 /*****TABLET MEDIA SCREEN****/
 
