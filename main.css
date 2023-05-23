@@ -79,14 +79,12 @@ footer {
 
 footer a {
     color: #EDAFC9;
-    
 }
 
 footer span {
     font-family: 'Pacifico', cursive;
     font-size: 50px;
 }
-
 
 /*****ABOUT PAGE******/
 .about body {
@@ -247,7 +245,7 @@ header .font {
 }
 
 #contact img {
-    border: 20px double #E74C3C;
+    border: 10px double #7F8C8D;
 }
 
 /*****HOBBIES*****/
