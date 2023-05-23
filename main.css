@@ -72,7 +72,7 @@ img {
 
 /*****FOOTER*****/
 footer {
-    padding-bottom:30px;
+    padding-bottom:10px;
     color: #EDAFC9;
     text-align:center;
 }
@@ -247,11 +247,17 @@ header .font {
 }
 
 /*****HOBBIES*****/
+.puzzle-header {
+    background: url('../img/puzzle-white.png');
+
+    background-size: cover;
+    background-position: center;
+}
+
 #puzzles {
     text-align:center;
     padding: 40px 70px;
     background-color: #FCF3CF;
-  
 }
 
 #puzzles h2 {
@@ -278,9 +284,6 @@ header .font {
 #cookies .galletas {
     font-family: 'Lobster', cursive;
 }
-
-
-
 
 /*****TABLET MEDIA SCREEN****/
 
