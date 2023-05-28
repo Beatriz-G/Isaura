@@ -3,7 +3,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     color: #7F8C8D;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .full-width {
@@ -21,7 +21,7 @@ header {
 
 header h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 100px;
     margin-left: 50px;
     margin-right: 50px;
     color: #F7DC6F;
@@ -29,7 +29,7 @@ header h1 {
 
 header h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #E74C3C;
     margin-left: 70px;
     margin-right: 70px;
@@ -68,11 +68,12 @@ img {
 #main-html h2 {
     font-family: 'Pacifico', cursive;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
 }
 #main-html h3 {
     text-align: center;
     padding:0 50px;
+    font-size: 60px;
 }
 
 /*****FOOTER*****/
