@@ -13,6 +13,7 @@ body {
 }
 
 /*****HEADER*****/
+
 header {
     height: 800px;
     height: 100%;
@@ -77,6 +78,7 @@ img {
 }
 
 /*****FOOTER*****/
+
 footer {
     padding-bottom:10px;
     color: #EDAFC9;
@@ -94,6 +96,7 @@ footer span {
 }
 
 /*****ABOUT PAGE******/
+
 .about body {
     color: #7F8C8D;
     font-size: 30px;
@@ -132,7 +135,7 @@ footer span {
 
 #stanford h3 {
     color: #E74C3C; 
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
 }
 
@@ -153,6 +156,7 @@ footer span {
 }
 
 /*****WORK PAGE*****/
+
 #hr {
     background-color: #FCF3CF;
     text-align:center;
@@ -226,6 +230,7 @@ header .font {
 }
 
 /*****HOBBIES*****/
+
 .puzzle-header {
     background-size: cover;
     background-position: center;
