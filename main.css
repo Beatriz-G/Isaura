@@ -70,6 +70,10 @@ img {
     text-align: center;
     font-size: 70px;
 }
+#main-html h3 {
+    text-align: center;
+    padding:0 50px;
+}
 
 /*****FOOTER*****/
 footer {
@@ -114,18 +118,11 @@ footer span {
     padding: 50px 70px;
 }
 
-#early-life h2 {
+#early-life h2,
+#stanford h2,
+#life-pinterest h2 {
     color: #E74C3C; 
     font-size: 70px;
-    border-bottom: black solid;
-    border-width: 2px 0;
-    padding-bottom: 20px;
-}
-
-#stanford h2 {
-    color: #E74C3C; 
-    font-size: 70px;
-    text-align: center;
     border-bottom: black solid;
     border-width: 2px 0;
     padding-bottom: 20px;
@@ -147,15 +144,6 @@ footer span {
     color:#E74C3C;
 }
 
-#life-pinterest h2 {
-    color: #E74C3C; 
-    font-size: 70px;
-    text-align: center;
-    border-bottom: black solid;
-    border-width: 2px 0;
-    padding-bottom: 20px;
-}
-
 #life-pinterest {
     background-color: #FCF3CF;
     text-align:center;
@@ -173,7 +161,9 @@ header .font {
     font-family: 'Lobster', cursive;
 }
 
-#hr h2 {
+#hr h2,
+#pos h2,
+#contact h2 {
     color: #E74C3C;
     font-size: 70px;
     border-bottom: black solid;
@@ -189,14 +179,6 @@ header .font {
 #pos span {
     font-size: 30px;
     font-family: 'Lobster', cursive;
-}
-
-#pos h2 {
-    color: #E74C3C;
-    font-size: 70px;
-    border-bottom: black solid;
-    border-width: 2px 0;
-    padding-bottom: 20px;
 }
 
 #pos .pinterest-font {
@@ -228,14 +210,6 @@ header .font {
     color: #0072b1;
 }
 
-#contact h2{ 
-    color: #E74C3C;
-    font-size: 70px;
-    border-bottom: black solid;
-    border-width: 2px 0;
-    padding-bottom: 20px;
-}
-
 #contact .half-width {
     width: 600px;
     float: left;
@@ -249,7 +223,7 @@ header .font {
     border: 10px double #7F8C8D;
 }
 
-/*****HOBBIES**********************************************************/
+/*****HOBBIES*****/
 .puzzle-header {
     background-size: cover;
     background-position: center;
@@ -261,9 +235,10 @@ header .font {
     background-color: #FCF3CF;
 }
 
-#puzzles h2 {
+#puzzles h2,
+#cookies h2 {
     color: #E74C3C;
-    font-size: 50px;
+    font-size: 70px;
     border-bottom: black solid;
     border-width: 2px 0;
     padding-bottom: 20px;
@@ -275,31 +250,38 @@ header .font {
     background: url('../img/Cookies-in-box.png');
 }
 
-#cookies h2 {
-    color: #E74C3C;
-    font-size: 50px;
-    border-bottom: black solid;
-    border-width: 2px 0;
-    padding-bottom: 20px;
-}
-
 #cookies .galletas {
     font-family: 'Lobster', cursive;
 }
-
-
 
 /*****TABLET MEDIA SCREEN****/
 
 @media screen and (min-width: 760px) {
     
-    
+    #early-life p,
+    #stanford p,
+    #life-pinterest p, 
+    #hr p,
+    #pos p,
+    #cookies p,
+    #puzzles p  {
+        line-height: 150%;
+    }
 }
 
 /*****DESKTOP MEDIA SCREEN*****/
 
 @media screen and (min-width: 1000px) {
-
+    
+    #early-life p,
+    #stanford p,
+    #life-pinterest p, 
+    #hr p,
+    #pos p,
+    #cookies p,
+    #puzzles p  {
+        line-height: 150%;
+    }
 
 
 }
