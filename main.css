@@ -160,7 +160,7 @@ footer span {
 
 header .font {
     font-family: 'Lobster', cursive;
-    font-size: 40;
+    font-size: 100px;
 }
 
 #hr h2,
@@ -210,6 +210,7 @@ header .font {
 
 #contact a {
     color: #0072b1;
+    font-size: 50px;
 }
 
 #contact .half-width {
@@ -257,7 +258,7 @@ header .font {
     font-family: 'Lobster', cursive;
 }
 
-/*****TABLET MEDIA SCREEN****/
+/*****TABLET MEDIA SCREEN*****/
 
 @media screen and (min-width: 760px) {
     
@@ -287,11 +288,7 @@ header .font {
     }
 
     header h1 {
-        text-align: center;
         font-size: 110px;
-        margin-left: 50px;
-        margin-right: 50px;
-        
     }
 
 }
