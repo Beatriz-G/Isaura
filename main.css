@@ -46,6 +46,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+    padding: 20px 30px;
 }
 
 nav ul li a {
@@ -73,7 +74,7 @@ img {
 /*****FOOTER*****/
 
 footer {
-    padding-bottom:10px;
+    padding-bottom: 10px;
     color: #EDAFC9;
     text-align:center;
     font-size: 20px;
@@ -90,19 +91,8 @@ footer span {
 
 /*****ABOUT PAGE******/
 
-.about body {
-    color: #7F8C8D;
-    font-size: 30px;
-}
-
-.about .full-width {
-    width: 100%;
-    margin: 0 auto;
-    overflow: auto;
-}
-
-
-#early-life {
+#early-life,
+#life-pinterest {
     background-color: #FCF3CF;
     text-align:center;
     padding: 50px 70px;
@@ -118,15 +108,15 @@ footer span {
     padding-bottom: 20px;
 }
 
+#stanford {
+    text-align: center;
+    padding: 50px 70px;
+}
+
 #stanford h3 {
     color: #E74C3C; 
     font-size: 55px;
     text-align: center;
-}
-
-#stanford {
-    text-align:center;
-    padding: 50px 70px;
 }
 
 #stanford a {
@@ -134,17 +124,12 @@ footer span {
     color:#E74C3C;
 }
 
-#life-pinterest {
-    background-color: #FCF3CF;
-    text-align:center;
-    padding: 50px 70px;
-}
-
 /*****WORK PAGE*****/
 
-#hr {
+#hr,
+#contact {
     background-color: #FCF3CF;
-    text-align:center;
+    text-align: center;
     padding: 40px 70px;
 }
 
@@ -167,30 +152,14 @@ header .font {
     padding: 40px 70px;
 }
 
-#pos span {
+#pos span,
+#contact span {
     font-size: 50px;
     font-family: 'Lobster', cursive;
-}
-
-#pos .pinterest-font {
-    font-family: 'Lobster', cursive;
-}
-
-#contact {
-    background-color: #FCF3CF;
-    text-align:center;
-    padding: 40px 70px;
 }
 
 #contact img {
     text-align: center;
-}
-
-#contact span {
-    font-size: 40px;
-    font-family: 'Lobster', cursive;
-    
-    font-size: 50px;
 }
 
 #contact .isaura {
@@ -203,11 +172,6 @@ header .font {
     color: #0072b1;
 }
 
-#contact .half-width {
-    width: 600px;
-    float: left;
-}
-
 #contact .adorable {
     font-family: 'Lobster', cursive;
 }
@@ -217,11 +181,6 @@ header .font {
 }
 
 /*****HOBBIES*****/
-
-.puzzle-header {
-    background-size: cover;
-    background-position: center;
-}
 
 #puzzles {
     text-align: center;
@@ -239,9 +198,8 @@ header .font {
 }
 
 #cookies {
-    text-align:center;
+    text-align: center;
     padding: 40px 70px;
-    background: url('../img/Cookies-in-box.png');
 }
 
 #cookies .galletas {
