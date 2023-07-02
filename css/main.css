@@ -184,14 +184,15 @@ header .font {
 
 /*****HOBBIES*****/
 
-#puzzles {
+#puzzles, #scones {
     text-align: center;
     padding: 40px 70px;
     background-color: #FCF3CF;
 }
 
 #puzzles h2,
-#cookies h2 {
+#cookies h2,
+#scones h2 {
     color: #E74C3C;
     font-size: 70px;
     border-bottom: black solid;
