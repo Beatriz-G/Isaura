@@ -12,7 +12,7 @@ body {
     overflow: auto;
 }
 
-/*****HEADER*****/
+/*****BUTTON*****/
 
 /**BACK TO TOP BUTTON**/
 #myBtn {
@@ -23,7 +23,7 @@ body {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: plum; 
+    background-color: #F7DC6F; 
     color: white; 
     cursor: pointer; 
     padding: 17px; 
@@ -32,8 +32,10 @@ body {
 }
   
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #E74C3C;
 }
+
+/*****HEADER*****/
 
 header {
     height: 800px;
