@@ -12,9 +12,8 @@ body {
     overflow: auto;
 }
 
-/*****BUTTON*****/
+/*****HEADER BUTTON*****/
 
-/**BACK TO TOP BUTTON**/
 #myBtn,
 #about #myBtn,
 #work #myBtn,
@@ -44,7 +43,6 @@ body {
 /*****HEADER*****/
 
 header {
-    height: 800px;
     height: 100%;
     text-align: center;
 }
@@ -122,16 +120,14 @@ footer span {
 
 /*****ABOUT PAGE******/
 
-#early-life,
-#life-pinterest {
+#early-life {
     background-color: #FCF3CF;
     text-align: center;
     padding: 50px 70px;
 }
 
 #early-life h2,
-#stanford h2,
-#life-pinterest h2 {
+#stanford h2 {
     color: #E74C3C; 
     font-size: 70px;
     border-bottom: black solid;
@@ -213,7 +209,8 @@ header .font {
 
 /*****HOBBIES*****/
 
-#puzzles, #scones {
+#puzzles, 
+#scones {
     text-align: center;
     padding: 40px 70px;
     background-color: #FCF3CF;
