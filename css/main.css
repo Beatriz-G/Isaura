@@ -15,7 +15,10 @@ body {
 /*****BUTTON*****/
 
 /**BACK TO TOP BUTTON**/
-#myBtn {
+#myBtn,
+#about #myBtn,
+#work #myBtn,
+#hobbies #myBtn {
     display: none; 
     position: fixed;
     bottom: 20px; 
@@ -31,7 +34,10 @@ body {
     font-size: 18px; 
 }
   
-#myBtn:hover {
+#myBtn:hover,
+#about #myBtn:hover,
+#work #myBtn:hover,
+#hobbies #myBtn:hover {
     background-color: #E74C3C;
 }
 
