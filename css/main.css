@@ -201,13 +201,14 @@ header .font {
 
 #contact .adorable {
     font-family: 'Lobster', cursive;
+    background: url(https://media.giphy.com/media/VfjEHoNY0IMAE/giphy.gif);
 }
 
 #contact img {
     border: 10px double #7F8C8D;
 }
 
-/*****HOBBIES*****/
+/*****HOBBIES***** /
 
 #puzzles, 
 #scones {
