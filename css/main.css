@@ -204,6 +204,13 @@ header .font {
     font-family: 'Lobster', cursive;
 }
 
+#contact .adorable {
+    font-family: 'Lobster', cursive;
+    background: url("https://media.giphy.com/media/VfjEHoNY0IMAE/giphy.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #contact img {
     border: 10px double #7F8C8D;
 }
@@ -230,6 +237,10 @@ header .font {
 #cookies {
     text-align: center;
     padding: 40px 70px;
+}
+
+#scones p {
+    line-height: 75px;
 }
 
 #cookies .galletas {
