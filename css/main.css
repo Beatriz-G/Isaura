@@ -201,7 +201,9 @@ header .font {
 
 #contact .adorable {
     font-family: 'Lobster', cursive;
-    background: url(https://media.giphy.com/media/VfjEHoNY0IMAE/giphy.gif);
+    background: url("https://media.giphy.com/media/VfjEHoNY0IMAE/giphy.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #contact img {
