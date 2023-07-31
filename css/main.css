@@ -136,7 +136,7 @@ footer span {
 }
 
 #stanford {
-    text-align:center;
+    text-align: center;
     padding: 50px 70px;
 }
 
@@ -210,7 +210,7 @@ header .font {
     border: 10px double #7F8C8D;
 }
 
-/*****HOBBIES***** /
+/*****HOBBIES*****/
 
 #puzzles, 
 #scones {
@@ -227,6 +227,10 @@ header .font {
     border-bottom: black solid;
     border-width: 2px 0;
     padding-bottom: 20px;
+}
+
+#scones p {
+    line-height: 75px;
 }
 
 #cookies {
