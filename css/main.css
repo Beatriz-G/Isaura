@@ -276,7 +276,6 @@ header .font {
     }
 
     /*ABOUT*/
-    
     #early-life h2,
     #stanford h2 {
         font-size: 100%;
@@ -291,7 +290,10 @@ header .font {
         font-size: 100%;
     }
 
-
+    #pos span,
+    #contact span {
+        font-size: 100%;
+    }
 
     /*HOBBIES*/
 
