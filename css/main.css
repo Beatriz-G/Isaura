@@ -47,29 +47,13 @@ header {
     text-align: center;
 }
 
-header h1 {
-    text-align: center;
-    font-size: 120px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #F7DC6F;
-}
-
-header h2 {
-    text-align: center;
-    font-size: 50px;
-    color: #E74C3C;
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
 nav {
     width: 90%;
     padding: 20px 10px 0 50px;
 }
 
 nav ul {
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -81,6 +65,22 @@ nav ul li a {
     text-transform: uppercase;
     color: #F7DC6F;
     text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #F7DC6F;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #E74C3C;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 /*****MAIN SECTION*****/
