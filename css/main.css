@@ -53,7 +53,7 @@ nav {
 }
 
 nav ul {
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -69,7 +69,7 @@ nav ul li a {
 
 header h1 {
     text-align: center;
-    font-size: 90px !important;
+    font-size: 120px;
     margin-left: 50px;
     margin-right: 50px;
     color: #F7DC6F;
@@ -77,15 +77,13 @@ header h1 {
 
 header h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #E74C3C;
-    margin: 0 15%;
-    width: 70%;
-    line-height: 140%;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
-/*****MAIN SECTION***margin-left: 70px;
-    margin-right: 70px; **/
+/*****MAIN SECTION*** **/
 
 #main-html {
     text-align: center;
@@ -255,8 +253,48 @@ header .font {
     #pos p,
     #cookies p,
     #puzzles p  {
-        line-height: 150%;
+        line-height: 170%;
+        font-size: 75%;
     }
+
+    /*HEADER*/
+    nav ul {
+        font-size: 30px;
+    }
+
+    header h1 {
+        font-size: 120%;
+    }
+
+    header h2 {
+        font-size: 70%;
+    }
+
+    /*MAIN*/
+    #main-html h3 {
+        font-size: 40px;
+    }
+
+    /*ABOUT*/
+    
+    #early-life h2,
+    #stanford h2 {
+        font-size: 100%;
+    }
+    
+    
+    #stanford h3 {
+        color: #E74C3C; 
+        font-size: 55px;
+        text-align: center;
+    }
+    
+    #stanford a {
+        text-decoration: none;
+        color:#E74C3C;
+    }
+
+
 }
 
 /*****DESKTOP MEDIA SCREEN*****/
