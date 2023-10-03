@@ -282,17 +282,18 @@ header .font {
         font-size: 100%;
     }
     
-    
     #stanford h3 {
         font-size: 85%;
-       
     }
     
-    #stanford a {
-        text-decoration: none;
-        color:#E74C3C;
+    /*WORK*/
+    #hr h2, #pos h2, #contact h2 {
+        font-size: 100%;
     }
 
+
+
+    /*HOBBIES*/
 
 }
 
