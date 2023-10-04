@@ -258,7 +258,10 @@ header .font {
     #pos p,
     #cookies p,
     #puzzles p  {
-        line-height: 150%;
+        line-height: 170%;
+        font-size: 60%;
+        width: 95%;
+        padding-left: 3%;
     }
 }
 
