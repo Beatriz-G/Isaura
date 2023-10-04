@@ -257,7 +257,8 @@ header .font {
     #hr p,
     #pos p,
     #cookies p,
-    #puzzles p  {
+    #puzzles p,
+    #scones p  {
         line-height: 170%;
         font-size: 70%;
     }
@@ -327,7 +328,8 @@ header .font {
     #hr p,
     #pos p,
     #cookies p,
-    #puzzles p  {
+    #puzzles p,
+    #scones p  {
         line-height: 170%;
         font-size: 60%;
         width: 95%;
