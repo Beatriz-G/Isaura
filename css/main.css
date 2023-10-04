@@ -303,9 +303,17 @@ header .font {
         width: 40%;
     }
 
-    /*HOBBIES*/
+    #pos span, 
+    #contact span {
+        font-size: 70%;
+    }
 
-    /*CONTACT*/
+    /*HOBBIES*/
+    #puzzles h2, 
+    #cookies h2,
+    #scones h2 {
+        font-size: 100%;
+    }
 }
 
 /*****DESKTOP MEDIA SCREEN*****/
@@ -325,19 +333,42 @@ header .font {
         padding-left: 3%;
     }
 
+    /*MAIN*/
     header h1 {
-        font-size: 110px;
+        font-size: 160px;
     }
 
+    header h2 {
+        font-size: 70%;
+        width: 70%;
+        padding-left: 10%;
+    }
 
-    /*MAIN*/
+    #main-html h3 {
+        font-size: 40px;
+    }
 
     /*ABOUT*/
 
+    #early-life h2,
+    #stanford h2 {
+        font-size: 90%;
+    }
+
+    #stanford h3 {
+        font-size: 75%;
+    }
+
     /*WORK*/
+    #hr h2, 
+    #pos h2,
+    #contact h2 {
+        font-size: 90%;
+    }
+    
 
     /*HOBBIES*/
 
-    /*CONTACT*/
+
 
 }
