@@ -271,6 +271,10 @@ header .font {
         font-size: 70%;
     }
 
+    header h3 {
+        font-size: 60%;
+    }
+
     /*MAIN*/
     #main-html h3 {
         font-size: 40px;
@@ -320,6 +324,17 @@ header .font {
     }
 
     header h1 {
-        font-size: 110px;
+        font-size: 120%;
     }
+
+    header h2 {
+        font-size: 50%;
+        width: 70%;
+        padding-left: 10%;
+    }
+}
+
+
+header h3 {
+    font-size: 60%;
 }
