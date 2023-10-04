@@ -47,22 +47,6 @@ header {
     text-align: center;
 }
 
-header h1 {
-    text-align: center;
-    font-size: 120px;   
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #F7DC6F;
-}
-
-header h2 {
-    text-align: center;
-    font-size: 50px;
-    color: #E74C3C;
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
 nav {
     width: 90%;
     padding: 20px 10px 0 50px;
@@ -81,6 +65,22 @@ nav ul li a {
     text-transform: uppercase;
     color: #F7DC6F;
     text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 120px;   
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #F7DC6F;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #E74C3C;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 /*****MAIN SECTION*****/
@@ -259,10 +259,22 @@ header .font {
     #cookies p,
     #puzzles p  {
         line-height: 170%;
-        font-size: 60%;
-        width: 95%;
-        padding-left: 3%;
+        font-size: 70%;
     }
+
+    nav ul {
+        font-size: 30px;
+    }
+
+    header h1 {
+        font-size: 120%;
+    }
+
+    header h2 {
+        font-size: 70%;
+    }
+
+
 }
 
 /*****DESKTOP MEDIA SCREEN*****/
@@ -276,7 +288,10 @@ header .font {
     #pos p,
     #cookies p,
     #puzzles p  {
-        line-height: 150%;
+        line-height: 170%;
+        font-size: 60%;
+        width: 95%;
+        padding-left: 3%;
     }
 
     header h1 {
