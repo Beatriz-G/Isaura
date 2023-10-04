@@ -309,6 +309,7 @@ header .font {
     }
 
     /*HOBBIES*/
+
     #puzzles h2, 
     #cookies h2,
     #scones h2 {
@@ -334,8 +335,9 @@ header .font {
     }
 
     /*MAIN*/
+
     header h1 {
-        font-size: 160px;
+        font-size: 110px;
     }
 
     header h2 {
@@ -360,15 +362,27 @@ header .font {
     }
 
     /*WORK*/
+
     #hr h2, 
     #pos h2,
     #contact h2 {
         font-size: 90%;
     }
-    
+
+    #pos span, 
+    #contact span {
+        font-size: 90%;
+    }
+
+    #contact p {
+        font-size: 75%;
+    }
 
     /*HOBBIES*/
 
-
-
+    #puzzles h2,
+    #cookies h2,
+    #scones h2 {
+        font-size: 90%;
+    }
 }
